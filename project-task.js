@@ -72,3 +72,43 @@ for (let i = 0; i < names.length; i++) {
 */
 
 // ✅ Your refactored code goes below this line!
+
+
+
+/* Task 1 */
+function greeting(name) {
+   console.log(`Welcome, ${name}!`)
+}
+
+greeting("Alice");
+greeting("Bob");
+greeting("Charlie");
+
+
+/* Task 2 */
+function addTwoNumbers(num1, num2) {
+   sum = num1 + num2;
+   console.log(`The sum of ${num1} and ${num2} is ${sum}`);
+}
+
+addTwoNumbers(5, 10);
+
+
+/* Task 3 */
+function multiplyTwoNumbers(num1, num2) {
+   product = num1 * num2;
+   console.log(`The product of ${num1} and ${num2} is ${product}`)
+}
+
+multiplyTwoNumbers(5, 10);
+
+
+/* Task 4 */
+function printArray(array) {
+   console.log("Names in the list:");
+   for (let i = 0; i < array.length; i++) {
+    console.log(array[i]);
+   }
+}
+
+printArray(names);
